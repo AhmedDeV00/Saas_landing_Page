@@ -1,7 +1,7 @@
 export const features = [
     {
         id: "0",
-        icon: '/imagees/feature-1.png',
+        icon: '/images/feature-1.png',
         title: "Feature 1",
         text: "Text 1",
         button: {
@@ -11,7 +11,7 @@ export const features = [
     },
     {
         id: "1",
-        icon: '/imagees/feature-2.png',
+        icon: '/images/feature-2.png',
         title: "Feature 2",
         text: "Text 2",
         button: {
