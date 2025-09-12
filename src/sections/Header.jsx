@@ -3,8 +3,19 @@ import { useEffect, useState } from "react";
 import clsx from "clsx";
 
 const Header = () => {
+
     const [hasScrolled, setHasScrolled] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setHasScrolled(window.scrollY > 32);
+        }
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [])
+
 
     useEffect(() => {
         const handleScroll = () => {
