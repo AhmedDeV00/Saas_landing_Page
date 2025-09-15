@@ -8,6 +8,8 @@ const App = () => {
       <Hero />
       <Features />
     </main>
+
+
   )
 }
 
