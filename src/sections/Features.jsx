@@ -4,6 +4,7 @@ import { details, features } from '../constants/index.js'
 import Button from '../components/Button.jsx'
 
 
+
 const Features = () => {
     return (
         <section>
